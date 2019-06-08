@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	System.out.println("Enter the values: ");
 	int Length = sc.nextInt();
 	sc.nextLine();
-	for(int i=0;i<Length;i++)
+	for(int i=0;i<Length;i++)//
 		numbers.add(Integer.parseInt(sc.nextLine()));
 	Question2 qns2=new Question2();
 	System.out.println(qns2.listWithDuplicates(numbers));
