@@ -27,6 +27,7 @@ public List<Integer> listWithDuplicates(List<Integer> number){
 		L1.add(i,j);
 	}
 	//write your code here !! change the L1 to required value
+	int k=0;
 	return L1 ;
 }
 }
